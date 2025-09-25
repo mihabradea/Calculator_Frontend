@@ -45,7 +45,7 @@ export default function PolyCard() {
   return (
     <div className="card" style={{ flex: "1 1 520px" }}>
       <h2 style={{ marginTop: 0 }}>Polynomials</h2>
-  <textarea className="input" rows={8} style={{ minHeight: '56px' }} value={input} onChange={e => setInput(e.target.value)} />
+  <textarea className="input" rows={12} style={{ minHeight: '56px' }} value={input} onChange={e => setInput(e.target.value)} />
       <div className="row" style={{ marginTop: 8 }}>
         <button className="btn neon" onClick={parsePoly}>Parse</button>
         <input className="input" style={{ maxWidth: 120 }} value={x} onChange={e => setX(e.target.value)} />

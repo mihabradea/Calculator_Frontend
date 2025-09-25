@@ -52,7 +52,7 @@ export default function CalculatorCard() {
   ], []);
 
   return (
-  <div className="card" style={{ flex: "1 1 520px", minWidth: 420, maxWidth: 520 }}>
+  <div className="card" style={{ flex: "1 1 520px", minWidth: 420, maxWidth: 520, minHeight: 820 }}>
       <div className="row" style={{ justifyContent: "space-between" }}>
         <h2 style={{ margin: 0 }}>Calculator</h2>
         <div className="row">
